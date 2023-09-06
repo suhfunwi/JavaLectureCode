@@ -12,6 +12,18 @@ public class FirstIfStatement {
         System.out.println("Thanks, your message was " +message);
 
         double price = doubleInput("Please enter the price of chips: ");
-        System.out.println("Thanks, the price is $" + price);
+        // parentheses needed for if statements
+        // DO NOT forget curly braces
+        // choices made depend on the value of the variable
+        if (price < 0) {
+            System.out.println("That is an error, price can't be negative");
+        } else if (price == 0) {
+            System.out.println("They are free!");
+
+        }
+        else {
+
+            System.out.println("Thanks, the price is $" + price);
+        }
     }
 }
