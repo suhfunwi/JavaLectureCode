@@ -13,7 +13,8 @@ public class Temp {
             System.out.println("Yesterday was warmer");
         } else {
             System.out.println("Today is warmer");
+            }
         }
     }
-}
+
 
